@@ -1,58 +1,70 @@
 #  Digital Visitor Counter using 8051 Microcontroller
 
-A smart embedded system to help prevent overcrowding at public places like **airports, malls, and museums** by automatically counting people entering and exiting a facility.
-
-This project was developed as part of the **Embedded Systems** course under the guidance of **Dr. Emad Badry**, using the **AT89C51** microcontroller and simulated on **Proteus**.
+> A smart system to automatically count visitors entering and exiting a place — helping prevent overcrowding in areas like malls, airports, and museums.
 
 ---
 
-##  Project Objective
+##  Demo
 
-Build an automatic visitor counting system that:
-- Detects real-time **entry and exit**
-- Displays the number of people currently inside
-- Triggers **alerts** when a safety limit is reached
-- Operates even during **power outages**
+📽️ Check out the full simulation in this short video:  
+**[Watch on LinkedIn](https://www.linkedin.com)** *(replace with your actual video link)*
 
----
 
-## ⚙️ System Components
 
-| Component         | Description                                      |
-|------------------|--------------------------------------------------|
-| **AT89C51**       | 8051-based microcontroller for control logic     |
-| **2 IR Sensors**  | Detect person entry and exit                     |
-| **16x2 LCD**      | Displays live count                              |
-| **Buzzer + LED**  | Alert system when limit is exceeded              |
-| **Buttons**       | For manual reset/testing                         |
-| **Battery Backup**| Rechargeable system to maintain power reliability|
+
+##  Project Overview
+
+As part of our **Embedded Systems course** under the guidance of **Dr. Emad Badry**, we built a **Digital Visitor Counter** using the AT89C51 microcontroller. The system detects people entering or exiting a space and displays the total on an LCD. If the count exceeds a safety threshold, an alarm triggers automatically.
 
 ---
 
-##  How It Works
+##  Features
 
-1. **Entry/Exit Detection** – Two IR sensors track people entering and exiting.
-2. **Real-Time Counting** – Microcontroller updates the count accordingly.
-3. **Display Output** – LCD shows the current number of visitors.
-4. **Overcrowding Alert** – When a preset limit is reached, a buzzer and LED go off.
-5. **Power Fail Safe** – Rechargeable battery ensures functionality during outages.
-
----
-
-## 💻 Code Features
-
-- Detect IR sensor triggers in real-time
-- Dynamically update visitor count on LCD
-- Trigger buzzer/LED when max limit is reached
-- Simulate edge cases for accuracy (e.g., multiple entries at once)
+- Real-time visitor detection via **IR sensors**
+- Dynamic display on a **16x2 LCD**
+- Safety alerts using **LED & buzzer**
+- Works even during outages using a **rechargeable battery**
+- Full simulation in **Proteus**
 
 ---
 
-## 📽️ Simulation
+##  Components Used
 
-> 🔧 The full hardware simulation was implemented in **Proteus**.  
-> 🎥 A video demonstration is included to show the system in action.  
-> *(Upload your simulation video to the repo or link it here)*
+- AT89C51 (8051) Microcontroller  
+- IR Sensors  
+- LCD Display (16x2)  
+- Buzzer & LED  
+- Push Buttons  
+- Resistors, Capacitors  
+- Power Supply Components
+
+---
+
+##  Simulation
+
+We used **Proteus** to simulate and test the circuit.
+
+📦 [Download Simulation File (.zip)](https://github.com/alimostafa253253/digital-counter/blob/main/8051.pdsprj.zip)
+
+### How to Run:
+
+1. Extract the `.zip` file  
+2. Open the `.pdsprj` file in **Proteus 8 or later**  
+3. Simulate and observe:
+   - IR-triggered counting
+   - LCD updates
+   - Alert system in action
+
+---
+
+##  Code Functions
+
+We wrote embedded C code to:
+
+- Detect visitor entry/exit using sensors  
+- Update count on the LCD  
+- Trigger buzzer when limit is reached  
+- Handle edge cases and resets
 
 ---
 
@@ -68,14 +80,16 @@ Build an automatic visitor counting system that:
 - Ahmed Sameer  
 - Mazin Hytham  
 
----
-
-##  Supervisor
-
-**Dr. Emad Badry**  
-Embedded Systems Instructor
 
 ---
 
-## 📁 Repository Structure
+##  Tags
+
+`#EmbeddedSystems` `#8051Microcontroller` `#Proteus` `#VisitorCounter` `#IoT` `#DigitalSystems` `#CrowdControl` `#AIStudent`
+
+---
+
+##  Special Thanks
+
+Thanks to **Dr. Emad Badry** for mentorship and guidance throughout this project.
 
